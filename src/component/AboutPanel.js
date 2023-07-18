@@ -10,7 +10,7 @@ const About = () => {
     <div className="about">
       <div className="left">
         <h2>Hello I'm Sahan</h2>
-        <p>I'm a dedicated and self-oriented undergraduate student that can develop front-end web application with React Js and etc.</p>
+        <p>I'm a dedicated, talented and self-oriented undergraduate student that can develop front-end web application with React Js and etc.</p>
         <button className="about-btns"><NavLink  to="/contact" >Contact Me</NavLink></button>
         
       </div>
