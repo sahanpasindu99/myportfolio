@@ -64,12 +64,6 @@
     font-size: 3rem;
 
 }
-
-  
-  @keyframes cursor-blink {
-    0%, 100% { opacity: 0; }
-    50% { opacity: 1; }
-  }
   
 .content .btn-d{
     border: 1rem;
