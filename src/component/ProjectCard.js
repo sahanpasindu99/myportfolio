@@ -14,7 +14,7 @@ const ProjectCard = () => {
                 <div className='pro-details'>
                     <p>A freelancing website for freelancers that can buy and sell services around SriLanka.</p>
                     <div className='pro-btns'>
-                        <NavLink to="https://www.nibm.lk" className='btn'>View</NavLink>
+                        <NavLink to="https://www.github.com" className='btn'>View</NavLink>
                     </div>
 
                 </div>

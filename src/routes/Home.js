@@ -3,6 +3,7 @@ import Navbar from '../component/Navbar';
 import HeImg from '../component/HeImg';
 import Footer from '../component/Footer';
 import Project from './Project';
+import About from './About';
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
       <Navbar/>
       <HeImg/>
       <Project/>
+      <About/>
+      
       
     </div>
   )

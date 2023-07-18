@@ -24,16 +24,16 @@ const HeImg = () => {
             words={['REACT DEV', 'MOBILE DEV', 'FRONT-END DEV']}
             loop={Infinity}
             cursor
-            cursorStyle=''
+            cursorStyle='|'
             typeSpeed={100}
             deleteSpeed={70}
-            delaySpeed={100}
+            delaySpeed={1000}
           />
           </h2>
         
          
         <div className='btndiv'>
-        <button className="btn"><Link  to="/project" >Projects</Link></button>
+        <button className="btn-d"><Link  to="/project" >Projects</Link></button>
         <button className="btn-light"> <Link  to="/contact">Contact</Link></button>
        
         </div>

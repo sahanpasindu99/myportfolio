@@ -1,19 +1,30 @@
 import React from 'react';
 import './AboutPanelStyle.css';
-import Intro from '../assets/Intro.jpg'
+
+import { Link, NavLink } from 'react-router-dom';
+import wall1 from '../assets/wall1.jpg'
+import wall2 from '../assets/wall2.jpg'
 
 const About = () => {
   return (
-    <div className="about-container">
-      <div className="about-details">
-        <h2>I'm Sahan</h2>
-        <p>I'm a dedicated and self-oriented undergraduate student that can develop web application with React js
-            , android application development and can work with databases like firebase.
-        </p>
+    <div className="about">
+      <div className="left">
+        <h2>Hello I'm Sahan</h2>
+        <p>I'm a dedicated and self-oriented undergraduate student that can develop front-end web application with React Js and etc.</p>
+        <button className="about-btns"><NavLink  to="/contact" >Contact Me</NavLink></button>
+        
       </div>
-      <div className="about-image">
-        <img src={Intro}>
-        </img>
+      <div className="right">
+        <div className='img-container'>
+          <div className='img-stack top'>
+            <img className='img1' alt='true' src={wall1}></img>
+
+          </div>
+          <div className='img-stack bottom'>
+            <img className='img1' alt='true' src={wall2}></img>
+
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,34 @@
+.hero-about{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    height:60vh;
+    position: relative;
+    display: grid;
+}
+.hero-about::before{
+   content: "";
+   background: url('../assets/aboutImg.jpg');
+   background-size: cover;
+   background-position: center top;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+.about-heading{
+
+    width:50%;
+    margin-left: 30%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-heading p{
+    margin-top: 5px;
+    margin: 1.2rem 0;
+}
